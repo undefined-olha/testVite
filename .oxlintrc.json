@@ -1,0 +1,17 @@
+{
+  "deny": {
+    "correctness": "error",
+    "suspicious": "error",
+    "complexity": "warning",
+    "nursery": "warning"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "*.config.js",
+    "*.config.ts"
+  ],
+  "jsx": true,
+  "typescript": true
+} 
